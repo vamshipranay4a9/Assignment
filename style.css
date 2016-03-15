@@ -1,0 +1,36 @@
+img{
+    width:200px;
+    height: 200px;
+    float:left;
+}
+
+p::before{
+   content: "Starthere";
+    color:blue
+    
+}
+
+p::after{
+    content:"Endhere";
+    color:red;
+}
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    z-index: -1;
+}
+#box{
+    
+    width:300px;
+    height:200px;
+    background:green;
+    color:white;
+    text-align:justify;
+    text-indent:40px;
+    padding:10px 20px;
+    border:8px solid red;
+    border-radius:40px;
+    float:left;
+}
